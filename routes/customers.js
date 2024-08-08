@@ -1,5 +1,5 @@
 const { Client } = require('pg');
-var connectionString = "postgres://postgres:root@localhost:5432/database";
+var connectionString = "postgresql://postgresql_azura_user:mGQ8D9RR3AFX3fex41i5Qe2MSUfk6Jrh@dpg-cqpr2g3qf0us73aodsm0-a/postgresql_azura";
 
 const client = new Client({
     connectionString: connectionString
